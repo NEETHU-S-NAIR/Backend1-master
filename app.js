@@ -32,7 +32,7 @@ app.use('/api', programApi);
 
 app.get('/*', function(req, res) {
     res.sendFile(path.join(__dirname +
-    '/dist//frontend1/index.html'))}); 
+    '/dist/frontend1/index.html'))}); 
 
 //server code
 app.listen(PORT, () => {
